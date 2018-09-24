@@ -1,5 +1,5 @@
 \documentclass[a4paper]{scrreprt}
-
+    
 %% Language and font encodings and page settings
 \usepackage[english]{babel}
 \usepackage[utf8x]{inputenc}
@@ -13,301 +13,319 @@
 \usepackage[colorinlistoftodos]{todonotes}
 \usepackage[colorlinks=true, allcolors=blue]{hyperref}
 
+%% Title page settings
 \title{Brexit Vs Good Friday}
 \subtitle{"Defend the Good Friday Agreement"}
 \author{Cian Gannon}
 \titlehead{\centering\includegraphics[width=10cm]{header}}
 
+%% Page settings
 \pagestyle{headings}
 
+%% Start of document
 \begin{document}
 
-    \maketitle
-
-    \begin{abstract}
-
-        \centering
-        \includegraphics[width=2.7cm]{gerrylad}
-
-        Brexit Vs Good Friday is a satirical representation of the current Brexit debacle and Ireland's core involvement in it due to the Good Friday Agreement. 
-        Brexit Vs Good Friday is a top-down shooter that will expand the genre and also involve the most loved elements of other shooters.
-
-        \begin{flushleft}
-            \noindent
-            \null\vfill
-            Game Design Document \\
-            Brexit Vs Good Friday \\
-            \today \\
-            Created by - Cian Gannon
-        \end{flushleft}
-        
-    \end{abstract}
-
-    \tableofcontents
-
-    \chapter{Overview}
-
-    \section{Main Concept}
-    Brexit Vs Good Friday is a satirical representation of Brexit and the hysteria surrounding it. It's a top down shooter where the user plays Gerry Adams a politician who returns from retirement in order to save what many hold dear.
-    
-    \section{Core Selling Points}
-
-        \subsection{Survival Elements}
-            \begin{description}
-                \item[$\bullet$] Player must dodge incoming fire.
-                \item[$\bullet$] The aim of the game is to protect Good Friday in a countdown until the UK leaves the EU and the single market. If the player fails in their attempt by getting hit then Good Friday will be removed and the player fails. If the player survives the countdown then the Good Friday is upheld.
-            \end{description}
-        
-        \subsection{Humor}
-            \begin{description}
-                \item[$\bullet$] The game is made to be humorous. It's take on Brexit that is a core issue currently in the EU is used to make all players on both sides laugh.
-                \item[$\bullet$] The game is created to be topical, games that are topical tend to be a hit with players.
-            \end{description}
-
-        \subsection{Top Down Shooter}
-            \begin{description}
-                \item[$\bullet$] Top down shooter which needs basic input so the game will be comfortable to play on mobile or desktop.
-                \item[$\bullet$] Top down games have been around for generations of consoles and have evolved over time. Brexit Vs Good Friday aims to take the general style and improve upon it.
-            \end{description}
-
-    \chapter{References} 
-
-    \section{Games Examined}
-
-        \subsection{GTA}
-
-            \begin{figure}[H]
-                \centering
-                \includegraphics[width=0.70\textwidth]{gta1.jpg}
-                \caption{\label{fig:art} GTA 1}
-            \end{figure}
-
-            \subsubsection{Core Features}
-                \begin{description}
-                    \item[$\bullet$] Single Player
-                    \item[$\bullet$] Top Down Shooter
-                    \item[$\bullet$] Open world
-                    \item[$\bullet$] Action/Adventure
-                    \item[$\bullet$] 2D
-                \end{description}
-
-                \subsubsection{Note}
-                Grant Theft Auto is a top down action shooter developed by Rockstar Games. set in an open world approximation of Ney York city.
-                A basic top down game that revolutionized the genre by adding an open world.
-                What truely made Grand Theft Auto stand out from other game of the period are it's ease of use controls. 
-                The pick up and play controls allowed users of all experience levels get to grips with game.
-            
-        \subsection{Doom}
-
-            \begin{figure}[H]
-                \centering
-                \includegraphics[width=0.70\textwidth]{doom.png}
-                \caption{\label{fig:art} Doom}
-            \end{figure}
-
-            \subsubsection{Core Features}
-            \begin{description}
-                \item[$\bullet$] Single Player
-                \item[$\bullet$] First Person Shooter
-                \item[$\bullet$] Linear/Semi Open World
-                \item[$\bullet$] Action
-                \item[$\bullet$] 'Fake' 3D/ 2.5D
-            \end{description}
-
-            \subsubsection{Note}
-            Doom is a first person shooter developed in 1993. 
-            Although my game is going to be top down, taking inspiration from the first person shooter genre and adapting them for Brexit Vs Good Friday.
-            Doom consists of constant stream of enemies in a fast paced enviroment that always keeps the player busy.
-            Doom has no story and keeps the player entertained with gameplay alone.
-
-        \subsection{Hotline Miami}
-
-        \begin{figure}[H]
-            \centering
-            \includegraphics[width=0.70\textwidth]{hotline-miami.jpg}
-            \caption{\label{fig:art} Hotline Miami}
-        \end{figure}
-
-        \subsubsection{Core Features}
-        \begin{description}
-            \item[$\bullet$] Single Player
-            \item[$\bullet$] Top Down Shooter
-            \item[$\bullet$] Semi Open World
-            \item[$\bullet$] Action
-            \item[$\bullet$] 2D
-        \end{description}
-
-        \subsubsection{Note}
-        Hotline Miami is a top down action shooter that throws more and more enemies at the player in order to increase the difficulty for the player. 
-        The player has a choice of wepaonry to deal with the onslaught of ever increasing enemies.   
-
-    \chapter{Specification}
-
-    \section{Target Group}
-
-    \begin{description}
-        \item[$\bullet$] The target group is a younger generation 35 and under who are interested in the currenct Brexit negotiations and just want to get away from the seriousness of it all.
-        \item[$\bullet$] Target platform is mobile devices specifically windows phones.
-    \end{description}
-
-    \section{Genre}
-    Brexit Vs Good Friday is a top down satirical shooter based on the current Brexit debate
-
-    \section{Art Style}
+%% Render title settings
+\maketitle
+
+%% Start abstract page
+\begin{abstract}
+
+%% Center everything on this page
+\centering
+
+%% Image of Gerry Adams
+\includegraphics[width=2.7cm]{gerrylad}
+
+%% Quick run down of the game concept
+Brexit Vs. Good Friday is a satirical representation of the current Brexit debacle and Ireland's core involvement in it due to the Good Friday Agreement. 
+Brexit Vs. Good Friday is a top-down shooter that will expand the genre and also involve the most loved elements of other shooters.
+
+%% Note in bottom left of abstract page
+\begin{flushleft}
+\noindent
+\null\vfill
+Game Design Document \\
+Brexit Vs Good Friday \\
+\today \\
+Created by - Cian Gannon
+\end{flushleft}
+
+\end{abstract}
+
+%% Render table of contents
+\tableofcontents
+
+%% Chapter 1
+\chapter{Overview}
+
+\section{Main Concept}
+Brexit Vs. Good Friday is a satirical representation of Brexit and the hysteria surrounding it. 
+It's a top-down shooter where the user plays Gerry Adams a politician who returns from retirement in order to save what many hold dear.
+
+\section{Core Selling Points}
+
+\subsection{Survival Elements}
+\begin{description}
+\item[$\bullet$] The player must dodge incoming fire.
+\item[$\bullet$] The aim of the game is to protect Good Friday in a countdown until the UK leaves the EU and therefore single market. 
+If the player fails in their attempt by getting hit then Good Friday will be removed and the player fails. 
+If the player survives the countdown then the Good Friday is upheld.
+\end{description}
+
+\subsection{Humor}
+\begin{description}
+\item[$\bullet$] The game is made to be humorous. Its take on Brexit that is a core issue currently in the EU is used to make all players on both sides laugh.
+\item[$\bullet$] The game is created to be topical, games that are topical tend to be a hit with players.
+\end{description}
+
+\subsection{Top Down Shooter}
+\begin{description}
+\item[$\bullet$] Top-down shooter which needs basic input so the game will be comfortable to play on mobile or desktop.
+\item[$\bullet$] Top-down games have been around for generations of consoles and have evolved over time. Brexit Vs. Good Friday aims to take the general style and improve upon it.
+\end{description}
+
+%% Chapter 2
+\chapter{References} 
+
+\section{Games Examined}
+
+\subsection{GTA}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.70\textwidth]{gta1.jpg}
+\caption{\label{fig:art} GTA 1}
+\end{figure}
+
+\subsubsection{Core Features}
+\begin{description}
+\item[$\bullet$] Single Player
+\item[$\bullet$] Top-down Shooter
+\item[$\bullet$] Open world
+\item[$\bullet$] Action/Adventure
+\item[$\bullet$] 2D
+\end{description}
+
+\subsubsection{Note}
+Grand Theft Auto is a top-down action shooter developed by Rockstar Games. Set in an open world approximation of Ney York city.
+A basic top-down game that revolutionized the genre by adding an open world.
+What truly made Grand Theft Auto stand out from other game of the period are it's ease of use controls. 
+The pick up and play controls allowed users of all experience levels get to grips with the game.
+
+\subsection{Doom}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.70\textwidth]{doom.png}
+\caption{\label{fig:art} Doom}
+\end{figure}
+
+\subsubsection{Core Features}
+\begin{description}
+\item[$\bullet$] Single Player
+\item[$\bullet$] First Person Shooter
+\item[$\bullet$] Linear/Semi Open World
+\item[$\bullet$] Action
+\item[$\bullet$] 'Fake' 3D/ 2.5D
+\end{description}
+
+\subsubsection{Note}
+Doom is a first-person shooter developed in 1993. 
+Although my game is going to be top down, taking inspiration from the first person shooter genre and adapting them for Brexit Vs. Good Friday.
+Doom consists of a constant stream of enemies in a fast-paced environment that always keeps the player busy.
+Doom has no story and keeps the player entertained with gameplay alone.
+
+\subsection{Hotline Miami}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.70\textwidth]{hotline-miami.jpg}
+\caption{\label{fig:art} Hotline Miami}
+\end{figure}
+
+\subsubsection{Core Features}
+\begin{description}
+\item[$\bullet$] Single Player
+\item[$\bullet$] Top-Down Shooter
+\item[$\bullet$] Semi Open World
+\item[$\bullet$] Action
+\item[$\bullet$] 2D
+\end{description}
+
+\subsubsection{Note}
+Hotline Miami is a top-down action shooter that throws more and more enemies at the player in order to increase the difficulty for the player. 
+The player has a choice of weaponry to deal with the onslaught of ever increasing enemies.    
+
+%% Chapter 3
+\chapter{Specification}
+
+\section{Target Group}
+
+\begin{description}
+\item[$\bullet$] The target group is a younger generation 35 and under who are interested in the current Brexit negotiations and just want to get away from the seriousness of it all.
+\item[$\bullet$] Target platform is mobile devices specifically windows phones.
+\end{description}
+
+\section{Genre}
+Brexit Vs. Good Friday is a top-down satirical shooter based on the current Brexit debate
 
-    \begin{center}
-        \includegraphics[width=4.5cm]{celtic-knot}
-        \includegraphics[width=5cm]{celtic-knot-arrow}
-        \includegraphics[width=4.5cm]{celtic-knot}
-        \begin{figure}[H]
-            \centering
-            \includegraphics[width=4.5cm]{start-game}
-            \caption{\label{fig:art} Game Menu Concept Art}
-        \end{figure}
-    \end{center}
-
-    I'll be going for a traditional celtic art style as this game will portray the Irish viewpoint of Brexit. 
-    It will mix celtic sybols for UI 'fluff' and use gaelic font type for menus.
-
-    \begin{figure}[H]
-        \begin{addmargin}[13.5em]{0em}
-            \includegraphics[width=1.5cm]{gerry-right}
-            \includegraphics[width=1.5cm]{arlene}
-            \includegraphics[width=1.5cm]{tess}
-        \end{addmargin}
-        \caption{\label{fig:art} Character Concept Art}
-    \end{figure}
-
-    \begin{flushleft}
-        The game will use satirical representations of politicians throughtout the game as player characters and non player characters (NPCs).
-    \end{flushleft}
-
-    \begin{flushleft}
-        The game will heavily lean on Irish humour surrounding our history and politics.
-    \end{flushleft}
-
-    \chapter{Gameplay and Setting}
-
-    \begin{center}
-        \includegraphics[width=7cm]{top-down}
-    \end{center}
-
-    The game is centered around the player who moved around the screen and defends against incoming enemies.
-    The player will have special abilities that they may use in addition to their main offensive weapon.
-
-    \section{Mood and Emotions}
-
-    The mood of the game is to be humorous.
-    The characters are over the top representations of real politicians the main menu will feature Irish in-jokes.
-    The who premise of the game is to make the user laugh while also delivering compelling gameplay.
-
-    \section{Objects in the Game}
-
-    The players and the projectiles are the only objects in the game.
-
-    \section{Characters in the Game}
+\section{Art Style}
 
-    \begin{figure}[H]
-        \begin{addmargin}[13.5em]{0em}
-            \includegraphics[width=1.5cm]{gerry-right}
-            \includegraphics[width=1.5cm]{arlene}
-            \includegraphics[width=1.5cm]{tess}
-        \end{addmargin}
-        \caption{\label{fig:art} Character Concept Art}
-    \end{figure}
+\begin{center}
+\includegraphics[width=4.5cm]{celtic-knot}
+\includegraphics[width=5cm]{celtic-knot-arrow}
+\includegraphics[width=4.5cm]{celtic-knot}
+\begin{figure}[H]
+\centering
+\includegraphics[width=4.5cm]{start-game}
+\caption{\label{fig:art} Game Menu Concept Art}
+\end{figure}
+\end{center}
+
+I'll be going for a traditional Celtic art style as this game will portray the Irish viewpoint of Brexit. 
+It will mix Celtic symbols for user interface 'fluff' and use Gaelic font type for menus.
 
-    The game will feature real world politicians in an over the top satirical outlook.
-    The game will feature Gerry Adams as the main protaganist/antagonist (Depending on the users outlook)
-    The game will use politicians from the UK as enemies that are trying to undermine the Good Friday Agreement.
+\begin{figure}[H]
+\begin{addmargin}[13.5em]{0em}
+\includegraphics[width=1.5cm]{gerry-right}
+\includegraphics[width=1.5cm]{arlene}
+\includegraphics[width=1.5cm]{tess}
+\end{addmargin}
+\caption{\label{fig:art} Character Concept Art}
+\end{figure}
+
+\begin{flushleft}
+The game will use satirical representations of politicians throughout the game as player characters and non-player characters (NPCs).
+\end{flushleft}
+
+\begin{flushleft}
+The game will heavily lean on Irish humor surrounding our history and politics.
+\end{flushleft}
+
+%% Chapter 4
+\chapter{Gameplay and Setting}
+
+\begin{center}
+\includegraphics[width=7cm]{top-down}
+\end{center}
+
+The game is centered around the player who moved around the screen and defends against incoming enemies.
+The player will have special abilities that they may use in addition to their main offensive weapon.
+
+\section{Mood and Emotions}
 
-    \section{Main Objective}
+The mood of the game is to be humorous.
+The characters are over the top representations of real politicians the main menu will feature Irish in-jokes.
+The who premise of the game is to make the user laugh while also delivering compelling gameplay.
 
-    Survive an onslaught of enemies while a counter is on screen.
+\section{Objects in the Game}
 
-    \section{Core Mechanics}
+The players and the projectiles are the only objects in the game.
 
-    \begin{description}
-        \item[$\bullet$] Tactical Maneuvering \\
-        Player will have to dodge incoming fire from enemies.
-        \item[$\bullet$] Resource Management \\
-        Player will have to manage their ammo and other abilities.
-        \item[$\bullet$] Survival \\
-        Player must survive hordes of enemies.
-    \end{description}
+\section{Characters in the Game}
 
-    \section{Controls}
+\begin{figure}[H]
+\begin{addmargin}[13.5em]{0em}
+\includegraphics[width=1.5cm]{gerry-right}
+\includegraphics[width=1.5cm]{arlene}
+\includegraphics[width=1.5cm]{tess}
+\end{addmargin}
+\caption{\label{fig:art} Character Concept Art}
+\end{figure}
 
-    \begin{center}
-        \includegraphics[width=7cm]{mobile}
-    \end{center}
+The game will feature real-world politicians in an over the top satirical outlook.
+The game will feature Gerry Adams as the main protagonist/antagonist (Depending on the user's outlook)
+The game will use politicians from the UK as enemies that are trying to undermine the Good Friday Agreement.
 
-    The player will be controlled by using touchscreen on a mobile device.
+\section{Main Objective}
 
-    %% Section 5
-    \chapter{Front End}
-    
-    \section{Start Screen}
+Survive an onslaught of enemies while a counter is on screen.
 
-    The start screen will feature traditional irish/celtic symbols and font.
-    
-    \section{Menus}
+\section{Core Mechanics}
 
-    There will be two menu types in the game
+\begin{description}
+\item[$\bullet$] Tactical Maneuvering \\
+The player will have to dodge incoming fire from enemies.
+\item[$\bullet$] Resource Management \\
+The player will have to manage their ammo and other abilities.
+\item[$\bullet$] Survival \\
+The player must survive hordes of enemies.
+\end{description}
 
-        \subsection{Main Menu}
+\section{Controls}
 
-        \begin{center}
-            \includegraphics[width=4.5cm]{celtic-knot}
-            \includegraphics[width=5cm]{celtic-knot-arrow}
-            \includegraphics[width=4.5cm]{celtic-knot}
-            \begin{figure}[H]
-                \centering
-                \includegraphics[width=4.5cm]{start-game}
-                \caption{\label{fig:art} Game Menu Concept Art}
-            \end{figure}
-        \end{center}
+\begin{center}
+\includegraphics[width=7cm]{mobile}
+\end{center}
 
-        The main menu is where the user will have multiple options.
+The player will be controlled by using touchscreen on a mobile device.
 
-        \begin{description}
-            \item[$\bullet$] Start Game \\
-            Start Game option will start a new game from the start.
-            \item[$\bullet$] Chapter Select \\
-            Chapter Select option allows the user to select a chapter.
-            \item[$\bullet$] Options \\
-            Options allows the user to change game options such as audio volume.
-            \item[$\bullet$] Quit \\
-            Quit exits the game and closes it.
-        \end{description}
+%% Section 5
+\chapter{Front End}
 
-        \subsection{Pause Menu}
+\section{Start Screen}
 
-        \begin{figure}[H]
-            \centering
-            \includegraphics[width=0.70\textwidth]{pause}
-            \caption{\label{fig:art} Pause Menu}
-        \end{figure}
+The start screen will feature traditional Irish/Celtic symbols and font.
 
-        The pause menu will be available when the user pauses the game while they are playing. When paused the user will have an option to quit or resume.
-        Quiting will bring the user back to the menu and resuming will bring the user back to the game when they left off.
-    
-    \section{End Screen}
+\section{Menus}
 
-    The end screen will transition the user from one level to another using a 'cut-scene'. If the user finished the game they will be greeted by a you wom message.
+There will be two menu types in the game
 
+\subsection{Main Menu}
 
-    %% Section 6
-    \chapter{Technology}
+\begin{center}
+\includegraphics[width=4.5cm]{celtic-knot}
+\includegraphics[width=5cm]{celtic-knot-arrow}
+\includegraphics[width=4.5cm]{celtic-knot}
+\begin{figure}[H]
+\centering
+\includegraphics[width=4.5cm]{start-game}
+\caption{\label{fig:art} Game Menu Concept Art}
+\end{figure}
+\end{center}
 
-    \includegraphics[width=0.50\textwidth]{Unity}
+The main menu is where the user will have multiple options.
 
-    \section{Target Systems}
+\begin{description}
+\item[$\bullet$] Start Game \\
+Start Game option will start a new game from the start.
+\item[$\bullet$] Chapter Select \\
+Chapter Select option allows the user to select a chapter.
+\item[$\bullet$] Options \\
+Options allow the user to change game options such as audio volume.
+\item[$\bullet$] Quit \\
+Quit exits the game and closes it.
+\end{description}
 
-    UWP devices will be the target devices. Game will use UWP as it will be compatible with windows phones, xbox and PC.
+\subsection{Pause Menu}
 
-    \section{Development Systems/Tools}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.70\textwidth]{pause}
+\caption{\label{fig:art} Pause Menu}
+\end{figure}
 
-    A computer will be used as the development system. \\
-    Unity will be the game engine that will be used to develope the game. \\
+The pause menu will be available when the user pauses the game while they are playing. When paused the user will have an option to quit or resume.
+Quitting will bring the user back to the menu and resuming will bring the user back to the game when they left off.
+
+\section{End Screen}
+
+The end screen will transition the user from one level to another using a 'cut-scene'. If the user finished the game they will be greeted by you won message.
+
+
+%% Chapter 6
+\chapter{Technology}
+
+\includegraphics[width=0.50\textwidth]{Unity}
+
+\section{Target Systems}
+
+UWP devices will be the target devices. The game will use UWP as it will be compatible with windows phones, Xbox and PC.
+
+\section{Development Systems/Tools}
+
+A computer will be used as the development system. \\
+Unity will be the game engine that will be used to develop the game. \\
 
 \end{document} 
